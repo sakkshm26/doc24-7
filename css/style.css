@@ -61,15 +61,24 @@ h4:after {
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width: 40%;
+    width: 46%;
 }
 .social{
     display: flex;
     justify-content: space-around;
-    padding-left: -50%;
+    /* pddiang-left: -50%; */
+    margin-top: 1.1rem;
+    margin-left:20%;
 }
 .fb{
-    margin-left: -15%;
+    margin-left: -18%;
+}
+.mess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    width: 100%;
 }
 @media screen and (max-width: 639px){
     .content{
