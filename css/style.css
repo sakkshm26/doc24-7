@@ -46,6 +46,12 @@ button{
     padding: 2% 15% 2% 15%;
     background-color:#003388 ;
     color: white;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h4:before,
 h4:after {
