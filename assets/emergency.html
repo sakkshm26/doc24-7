@@ -40,7 +40,8 @@
                 <h4>Check availabilty</h4>
                 <div class="pin" style="padding-top: 10% ;  margin-top: 0.8rem;">
                     Enter area pin code here: <br>
-                    <input type="number" class="code" placeholder="Enter pin"> <br>
+                    <form action="" class="pin-code"></form>
+                    <input type="number" name = "name" class="text-box" placeholder="Your pin" required> <br>
                     <div class="service">*Services is available here</div>
                 </div>
             </div>
@@ -52,22 +53,36 @@
             </div>
             <div class="size" style="padding-left: 10%; padding-top: 2%;">
                 Size(in L) <br>
-                <div class="input-group">
+             <!--   <div class="input-group">
                     <input type="button" value="-" class="button-minus" data-field="quantity">
                     <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
                     <input type="button" value="+" class="button-plus" data-field="quantity">
-                </div>
+                </div>-->
+                <form class="b">
+                    <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                    <input type="number" id="number" value="0" />
+                    <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                  </form>
                 Quantity <br>
-                <div class="input-group">
-                    <input type="button" value="-" class="button-minus" data-field="quantity">
-                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
-                    <input type="button" value="+" class="button-plus" data-field="quantity">
-                </div>
+                <form class="b">
+                    <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                    <input type="number" id="number" value="0" />
+                    <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                  </form>
 
             </div>
             <div class="cart">
-                <button class="add" style="padding-right: 3%; margin-bottom: 2%; background-color: black; color: white; "><pre>Add to cart</pre>  </button> <br>
-                <button class="buy" style="margin-top: 5%; background-color: blue;color: white;">Buy Now</button>
+                <button class="add" style=" margin-bottom: 2%; background-color: black; color: white;
+                width: 160px;
+                height: 33px;
+                left: 1125px;
+                top: 344px;
+                
+                background: #333333; "><pre>Add to cart</pre>  </button> <br>
+                <button class="buy" style="margin-top: 5%; background-color: #003388;color: white; width: 160px;
+                height: 33px;
+                left: 1125px;
+                top: 414px;";>Buy Now</button>
             </div>
     
         </div>
@@ -91,33 +106,42 @@
         </div>
         <div class="num">
         Quantity <br>
-        <div class="input-group">
-            <input type="button" value="-" class="button-minus" data-field="quantity">
-            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
-            <input type="button" value="+" class="button-plus" data-field="quantity">
-        </div> </div><hr>
+        <form class="b">
+            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+            <input type="number" id="number" value="0" />
+            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+          </form> </div><hr>
         <div class="mask" >
             <b>Mask</b> <br>
             <img src="../img/mask 1.png" alt="">
         </div>
         <div class="size" style="padding-left: 10%; padding-top: 2%;">
             Size <br>
-            <div class="input-group">
-                <input type="button" value="-" class="button-minus" data-field="quantity">
-                <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
-                <input type="button" value="+" class="button-plus" data-field="quantity">
-            </div>
+            <form class="b">
+                <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                <input type="number" id="number" value="0" />
+                <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+              </form>
             Quantity <br>
-            <div class="input-group">
-                <input type="button" value="-" class="button-minus" data-field="quantity">
-                <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
-                <input type="button" value="+" class="button-plus" data-field="quantity">
-            </div>
+            <form class="b">
+                <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                <input type="number" id="number" value="0" />
+                <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+              </form>
 
         </div>
         <div class="cart">
-            <button class="add" style="padding-right: 3%; margin-bottom: 2%; background-color: black; color: white; "><pre>Add to cart</pre>  </button> <br>
-            <button class="buy" style="margin-top: 5%; background-color: blue;color: white;">Buy Now</button>
+            <button class="add" style="margin-bottom: 2%; background-color: black; color: white;
+            width: 160px;
+            height: 33px;
+            left: 1125px;
+            top: 344px;
+            
+            background: #333333; ">Add to cart  </button> <br>
+            <button class="buy" style="margin-top: 5%; background-color: #003388;color: white; width: 160px;
+            height: 33px;
+            left: 1125px;
+            top: 414px;">Buy Now  &nbsp; &nbsp; </button>
         </div></div>
 
     </div>
