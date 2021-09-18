@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:ital,wght@0,100;0,200;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+/*    
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* overflow-x: hidden; */
+
+  
+}
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background:#003388;
+    color: #fff;
+    padding: 1em 6em;
+
+
+}
+
+.logo a{
+    
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.6em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 0 1em;
+   
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.nav li{
+    list-style: none;
+
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    padding-right:2em;
+    font-family: 'Inter';
+    /* text-transform: uppercase; */
+    font-size: 1em;
+
+}
+.nav a:hover{
+    color:#57d4fa;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.toggle{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+.bar{
+    width: 100%;
+    background: #fff;
+    height: 3px;
+}
+
+.area{
+   
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 2.5rem;
+    padding:1rem;
+    
+}
+.upper{
+    display: flex;
+    margin: 1rem ;
+    padding:.6rem;
+    color: #000000;
+    font-family: 'Inter';
+
+    
+}
+.lower{
+    padding:.65rem;
+    margin: 1rem;
+    color:#000000;
+    font-weight: bold;
+    font-family: 'Inter';
+    line-height: .3cm;
+}
+.lower h2, .lower p,.lower ol li{
+    margin: 1rem;
+    margin-left: 1.6rem;
+   
+}
+.ll{
+    color: #003388;
+    text-transform: capitalize;
+    margin: 2rem;
+    padding:2rem;
+    font-style: italic;
+}
+.img ,.text{
+    padding:1rem;
+    margin: 1rem;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+.disease{
+    font-size:32px;
+    font-weight:800;
+    
+}
+.left{
+    height:100% ;
+    background-color: #e6f5fc;
+}
+
+
+.right{
+    margin-top: 0 !important;;
+    margin: 1rem;
+}
+
+.right .aa{
+    background: url(../img/Rectangle\ 154.png) ;
+    height: 40%;
+    width: 100%;
+    display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.right .aa1{
+    background: url(../img/Rectangle\ 156.png) ;
+    height: 40%;
+    width: 100%;
+    display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.messa{
+    background: rgba(255,255,255,0.45);
+    color: #000000;
+    font-weight: 600;
+    font-size:20px;
+    width: 100%;
+    height: 40%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    /* display:flex;
+    padding-top:95%;
+    justify-content: center;
+
+  
+    align-items:flex-end;
+    flex-direction: column-reverse; */
+}
+.messa a{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    margin-top: 1.5rem ;
+    margin-left: 30%;
+    /* padding: 1rem; */
+}
+.messa a:hover{
+    text-decoration: underline;
+    color: #003388;
+    font-weight: 700;
+}
+
+
+
+
+
+
+@media (max-width: 480px){
+
+    .logo{
+        padding: 0 0.5em;
+    }
+    .toggle{
+      display: flex;
+    }
+
+    
+    
+    .nav li{
+        padding-bottom: 2em;
+        text-align: center;
+    }
+    .nav ul{
+        padding-top: 3em;
+        flex-direction: column;
+        display: none;
+
+    }
+    .area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        font-size:16px;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+  .upper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .lower{
+      line-height:.8cm;
+  }
+  .right{
+      margin-top:1rem ;
+      padding: 1rem;
+  }
+  .right .aa{
+      height: 100%;
+    width: 100%;
+      
+  }
+}
+
+
+
+
+.current{
+    text-decoration: underline;
+    color: #57d4fa !important;
+}
