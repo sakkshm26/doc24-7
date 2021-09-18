@@ -191,4 +191,27 @@ color: #000000;
   .ctrl-btn.pro-next {
     right: 0;
   }
+@media screen and (max-width: 639px){
+    .materials ul {
+      display: flex;
+      
+      background-color:#E6F5FC;;
+      padding: 1%;
+      font-family: Inter;
+      flex-direction: column;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+color: #000000;
+  }
+  .top ul{
+    display: flex;
+   flex-direction: column;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+  }
+  
   
