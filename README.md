@@ -62,6 +62,7 @@ THANK YOU!
  1.  include Backened and api to make calls live 
  2.  Add reach
  3.  opening our stores at diff areas of country so our delivery of medicines reach to everyone.
+ 4.  by including Blockchain technology to keep the data safe and maintain privacy of our users.
 
 
 ## Made With ❤️ by our hack2dev Team.
