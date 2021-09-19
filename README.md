@@ -70,13 +70,7 @@ Also, Paypal generate invoices with salt and other challenge of “generating in
 
 
 ## 🚀 Future Plans
- 1.  Adding a authorised video conferencing feature 
- 2.  Using heatmap feature in hire a creator window to grab the interest and many more..
- 3.  Adding virtual assistant using API and AI.
- 4.  Giving Notification to the creators on their phone or mail about deadlines or projects.
- 5.  Connecting with cloud for storing info about previous projects.
- 6.  Adding some advance backend.
-
+ 1.  
 
 
 ## Made With ❤️ by our hack2dev Team.
