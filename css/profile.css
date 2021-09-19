@@ -5,7 +5,7 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-/Navbar/
+/*Navbar*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:ital,wght@0,100;0,200;1,200&display=swap');
 *{
     margin: 0;
@@ -111,7 +111,7 @@ overflow-x: hidden;
     color: #57d4fa !important;
 }
 
-/Profile/
+/*Profile*/
 .profile{
     margin-bottom: 21px;
     display: flex;
@@ -145,7 +145,7 @@ overflow-x: hidden;
     font-weight: 400;
 }
 
-/Appointment/
+/*Appointment*/
 hr{
     margin: 11px 34px;
     background: #003388;
