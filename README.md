@@ -16,11 +16,12 @@ Your Own Boss 👨 to manage task and payments for freelancers/creators with man
 
 
 # This project is a part of Resonate Hackathon.
-  Hackathon - by SRM
-  ### About Devfest2.0 2021 💻
-  Devfest is the week-long completely online technical fest organized by DevSoc, Development Society, BITS Pilani Goa campus. In this one weekbwe will be going on an exciting adventure of technical events, workshops to learn new skills and hackathons where teams rack their brainsbto find solutions to real-world problems.
+  Hackathon 
+ # ABOUT RESONATE-
+  **Resonate aims to bring together everyone who wishes to see this world for themself. Be a part of this event, where you get to interact with technophiles from all over the world. Enhance your skills and get ready not just to witness this futuristic world, but make it.**
+  
 
-⭐ [Check out the website of Devfest](https://fest.devsoc.club/)
+⭐ [Check out the website of Devfest](https://resonate.msclubsrm.in/)
 
 
 ## 📋 Table of Contents
