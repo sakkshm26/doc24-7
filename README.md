@@ -21,7 +21,7 @@ DOC24/7 👨‍👨 to manage emergency situations with many other features to m
   **Resonate aims to bring together everyone who wishes to see this world for themself. Be a part of this event, where you get to interact with technophiles from all over the world. Enhance your skills and get ready not just to witness this futuristic world, but make it.**
   
 
-⭐ [Check out the website of Devfest](https://resonate.msclubsrm.in/)
+⭐ [Check out the website of Resonate](https://resonate.msclubsrm.in/)
 
 
 ## 📋 Table of Contents
