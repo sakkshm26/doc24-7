@@ -5,7 +5,7 @@ Demo: https://eloquent-jepsen-2ae2f5.netlify.app/
 
 ![Developer](https://img.shields.io/badge/developer-priyanshiraj2909-brightgreen)
 ![Developer](https://img.shields.io/badge/developer-anant7393-brightgreen)
-![Developer](https://img.shields.io/badge/developer-shaksham-brightgreen)
+![Developer](https://img.shields.io/badge/developer-saksham-brightgreen)
 ![Designer](https://img.shields.io/badge/designer-dikshitajain13-orange)
 ![Designer](https://img.shields.io/badge/designer-vasavi001-orange)
 
