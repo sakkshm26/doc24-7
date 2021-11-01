@@ -1,7 +1,7 @@
-# doc24-7
 # 📖 DOC 24/7
 ### 🧐 Resonate Healthcare
 
+Demo: https://eloquent-jepsen-2ae2f5.netlify.app/
 
 ![Developer](https://img.shields.io/badge/developer-priyanshiraj2909-brightgreen)
 ![Developer](https://img.shields.io/badge/developer-anant7393-brightgreen)
